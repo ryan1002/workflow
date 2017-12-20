@@ -3,6 +3,11 @@ $black: '#000000';
 body {
   background-color: green;
 }
+
 h1 {
   color: white;
+  &:hover {
+    color: red;
+    transition: 1s ease;
+  }
 }
